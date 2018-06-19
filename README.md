@@ -1,24 +1,16 @@
-# README
+## Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Clone this repo with git:
 
-Things you may want to cover:
+        git clone git@github.com:pocketIlmatto/cocktail_central_api.git
 
-* Ruby version
+2. Install necessary gems:
 
-* System dependencies
+        bundle install
 
-* Configuration
+3. Setup Development Database
+        rake db:drop; rake db:create; rake db:migrate; rake test:prepare
+        rake db:seed
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Run the application:
+        rails s
