@@ -1,5 +1,8 @@
 {
   "name": "cocktail_central_api",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react-bootstrap": "^0.32.1"
+  }
 }
